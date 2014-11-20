@@ -2,7 +2,7 @@ Currency Converter Api
 ============
 
 Currency Converter REST API
-Data from:
+<br/>Data from:
 [Bank of Canada](http://www.bankofcanada.ca) 
 
 
