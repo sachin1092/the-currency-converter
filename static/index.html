@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>
+        Currency Converter - API Guide & Disclaimer
+    </title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+            "stylesheet">
+    <link href="default.css" rel="stylesheet">
+</head>
+<body>
+<div class="maia-header" id="maia-header" role="banner">
+    <div class="maia-aux">
+        <h1>
+            Currency Converter
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+    </div>
+</div>
+<div id="maia-main" role="main">
+<div class="maia-teleport" id="content"></div>
+<h1>
+    API Guide and Disclaimers
+</h1>
+<ul>
+    <li>Access currency rates of more than 60 countries. Currency rates are retrieved from Bank of Canada. Data is
+        available in JSON format.
+    </li>
+    <li>Associated <a href="#disclaimers">Disclaimers</a>
+    </li>
+</ul>
+<h2>
+    APIs
+</h2>
+<ul>
+    <li>
+        <b>Get rates for all the currencies:</b>
+        <br/><b>Request URL:</b><br/>
+        <em>http://the-currency-converter.herokuapp.com/currency/v1.0/</em>
+    </li>
+    <br/>
+    <li>
+        <b>Get conversion rate for specific currencies:</b>
+        <br/><b>Request URL:</b><br/>
+        <em>http://the-currency-converter.herokuapp.com/currency/v1.0/<< from >>/<< to >>/</em>
+        <br/><br/><b>EXAMPLE:</b><br/>
+        <a href="http://currency-converter.herokuapp.com/currency/v1.0/USD/INR/">http://currency-converter.herokuapp.com/currency/v1.0/USD/INR/</a>
+    </li>
+</ul>
+
+<h2>
+    Abbreviations
+</h2>
+<table>
+<tr>
+    <th>
+        Name
+    </th>
+    <th>
+        Abbreviation
+    </th>
+</tr>
+<tr>
+    <td>
+        Argentine peso
+    </td>
+    <td>
+        ARS
+    </td>
+</tr>
+<tr>
+    <td>
+        Australian dollar
+    </td>
+    <td>
+        AUD
+    </td>
+</tr>
+<tr>
+    <td>
+        Bahamian dollar
+    </td>
+    <td>
+        BSD
+    </td>
+</tr>
+<tr>
+    <td>
+        Brazilian real
+    </td>
+    <td>
+        BRL
+    </td>
+</tr>
+<tr>
+    <td>
+        CFA franc (African Financial Community)
+    </td>
+    <td>
+        XOF
+    </td>
+</tr>
+<tr>
+    <td>
+        CFP franc (Pacific Financial Community)
+    </td>
+    <td>
+        XPF
+    </td>
+</tr>
+<tr>
+    <td>
+        Chilean peso
+    </td>
+    <td>
+        CLP
+    </td>
+</tr>
+<tr>
+    <td>
+        Chinese renminbi
+    </td>
+    <td>
+        CNY
+    </td>
+</tr>
+<tr>
+    <td>
+        Colombian peso
+    </td>
+    <td>
+        COP
+    </td>
+</tr>
+<tr>
+    <td>
+        Croatian kuna
+    </td>
+    <td>
+        HRK
+    </td>
+</tr>
+<tr>
+    <td>
+        Czech Republic koruna
+    </td>
+    <td>
+        CZK
+    </td>
+</tr>
+<tr>
+    <td>
+        Danish krone
+    </td>
+    <td>
+        DKK
+    </td>
+</tr>
+<tr>
+    <td>
+        East Caribbean dollar
+    </td>
+    <td>
+        XCD
+    </td>
+</tr>
+<tr>
+    <td>
+        European Euro
+    </td>
+    <td>
+        EUR
+    </td>
+</tr>
+<tr>
+    <td>
+        Fiji dollar
+    </td>
+    <td>
+        FJD
+    </td>
+</tr>
+<tr>
+    <td>
+        Ghanaian cedi
+    </td>
+    <td>
+        GHS
+    </td>
+</tr>
+<tr>
+    <td>
+        Guatemalan quetzal
+    </td>
+    <td>
+        GTQ
+    </td>
+</tr>
+<tr>
+    <td>
+        Honduran lempira
+    </td>
+    <td>
+        HNL
+    </td>
+</tr>
+<tr>
+    <td>
+        Hong Kong dollar
+    </td>
+    <td>
+        HKD
+    </td>
+</tr>
+<tr>
+    <td>
+        Hungarian forint
+    </td>
+    <td>
+        HUF
+    </td>
+</tr>
+<tr>
+    <td>
+        Icelandic krona
+    </td>
+    <td>
+        ISK
+    </td>
+</tr>
+<tr>
+    <td>
+        Indian rupee
+    </td>
+    <td>
+        INR
+    </td>
+</tr>
+<tr>
+    <td>
+        Indonesian rupiah
+    </td>
+    <td>
+        IDR
+    </td>
+</tr>
+<tr>
+    <td>
+        Israeli new shekel
+    </td>
+    <td>
+        ILS
+    </td>
+</tr>
+<tr>
+    <td>
+        Jamaican dollar
+    </td>
+    <td>
+        JMD
+    </td>
+</tr>
+<tr>
+    <td>
+        Japanese yen
+    </td>
+    <td>
+        JPY
+    </td>
+</tr>
+<tr>
+    <td>
+        Malaysian ringgit
+    </td>
+    <td>
+        MYR
+    </td>
+</tr>
+<tr>
+    <td>
+        Mexican peso
+    </td>
+    <td>
+        MXN
+    </td>
+</tr>
+<tr>
+    <td>
+        Moroccan dirham
+    </td>
+    <td>
+        MAD
+    </td>
+</tr>
+<tr>
+    <td>
+        Myanmar (Burma) kyat
+    </td>
+    <td>
+        MMK
+    </td>
+</tr>
+<tr>
+    <td>
+        Neth. Antilles florin
+    </td>
+    <td>
+        ANG
+    </td>
+</tr>
+<tr>
+    <td>
+        New Zealand dollar
+    </td>
+    <td>
+        NZD
+    </td>
+</tr>
+<tr>
+    <td>
+        Norwegian krone
+    </td>
+    <td>
+        NOK
+    </td>
+</tr>
+<tr>
+    <td>
+        Pakistan rupee
+    </td>
+    <td>
+        PKR
+    </td>
+</tr>
+<tr>
+    <td>
+        Panamanian balboa
+    </td>
+    <td>
+        PAB
+    </td>
+</tr>
+<tr>
+    <td>
+        Peruvian new sol
+    </td>
+    <td>
+        PEN
+    </td>
+</tr>
+<tr>
+    <td>
+        Polish zloty
+    </td>
+    <td>
+        PLN
+    </td>
+</tr>
+<tr>
+    <td>
+        Romanian new leu
+    </td>
+    <td>
+        RON
+    </td>
+</tr>
+<tr>
+    <td>
+        Russian rouble
+    </td>
+    <td>
+        RUB
+    </td>
+</tr>
+<tr>
+    <td>
+        Serbian dinar
+    </td>
+    <td>
+        RSD
+    </td>
+</tr>
+<tr>
+    <td>
+        Singapore dollar
+    </td>
+    <td>
+        SGD
+    </td>
+</tr>
+<tr>
+    <td>
+        South African rand
+    </td>
+    <td>
+        ZAR
+    </td>
+</tr>
+<tr>
+    <td>
+        South Korean won
+    </td>
+    <td>
+        KRW
+    </td>
+</tr>
+<tr>
+    <td>
+        Sri Lanka rupee
+    </td>
+    <td>
+        LKR
+    </td>
+</tr>
+<tr>
+    <td>
+        Swedish krona
+    </td>
+    <td>
+        SEK
+    </td>
+</tr>
+<tr>
+    <td>
+        Swiss franc
+    </td>
+    <td>
+        CHF
+    </td>
+</tr>
+<tr>
+    <td>
+        Taiwanese new dollar
+    </td>
+    <td>
+        TWD
+    </td>
+</tr>
+<tr>
+    <td>
+        Thai baht
+    </td>
+    <td>
+        THB
+    </td>
+</tr>
+<tr>
+    <td>
+        Trinidad and Tobago dollar
+    </td>
+    <td>
+        TTD
+    </td>
+</tr>
+<tr>
+    <td>
+        Tunisian dinar
+    </td>
+    <td>
+        TND
+    </td>
+</tr>
+<tr>
+    <td>
+        Turkish lira
+    </td>
+    <td>
+        TRY
+    </td>
+</tr>
+<tr>
+    <td>
+        U.A.E. dirham
+    </td>
+    <td>
+        AED
+    </td>
+</tr>
+<tr>
+    <td>
+        U.K. pound sterling
+    </td>
+    <td>
+        GBP
+    </td>
+</tr>
+<tr>
+    <td>
+        U.S. dollar
+    </td>
+    <td>
+        USD
+    </td>
+</tr>
+<tr>
+    <td>
+        US/Canada noon 3-month forward points spread
+    </td>
+    <td>
+        CAD3
+    </td>
+</tr>
+<tr>
+    <td>
+        US/Canada noon 6-month forward points spread
+    </td>
+    <td>
+        CAD6
+    </td>
+</tr>
+<tr>
+    <td>
+        Venezuelan bolivar fuerte
+    </td>
+    <td>
+        VEF
+    </td>
+</tr>
+<tr>
+    <td>
+        Vietnamese dong
+    </td>
+    <td>
+        VND
+    </td>
+</tr>
+</table>
+<h3 id="disclaimers">
+    Disclaimers
+</h3>
+
+<p>
+    Data is provided by Bank of Canada. This is an unofficial api for accessing currency rates. Rates may be delayed
+    as specified by financial
+    exchanges or data providers. We do not verify any data and disclaim any
+    obligation to do so.
+</p>
+
+<h3>
+    Currency Conversion
+</h3>
+
+<p>
+    We cannot guarantee the accuracy of the exchange rates displayed. You should confirm
+    current rates before making any transactions that could be affected by changes in the
+    exchange rates.
+</p>
+
+</div>
+
+<div class="maia-footer" id="maia-footer">
+    <div id="maia-footer-global">
+        <div class="maia-aux">
+            <ul>
+                <li>
+                    <a href="http://www.sachinshinde.com">Sachin Shinde</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
